@@ -1,7 +1,8 @@
 <template>
-    <counter-button></counter-button>
-</template>
+  <nav>
+    <router-link to="/">ホーム</router-link> |
+    <router-link to="/about">アバウト</router-link>
+  </nav>
 
-<script setup>
-import CounterButton from './CounterButton.vue';
-</script>
+  <router-view />
+</template>
